@@ -65,7 +65,7 @@ function extractCode( obj ){
 
 ```javascript
 // Read about the Zillow RAML API at https://anypoint.mulesoft.com/apiplatform/popular/admin/#/dashboard/apis/7660/versions/7788/contracts
-API.createClient('client', '/apiplatform/repository/public/organizations/30/apis/7660/versions/7788/definition');
+API.createClient('client', '#REF_TAG_DEFENITION');
 ```
 
 The CalculateMonthlyPaymentsAdvanced API returns the estimated monthly payment, total payment, and amortization table for a given loan amount. It includes detailed monthly payment breakdown including taxes and insurance, as well as payment totals over the life of the loan.
